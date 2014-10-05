@@ -8,9 +8,13 @@ body {
 }
 
 h1 {
-  border-bottom:1px solid #D2D2D2;
+  border-bottom: 0px dashed #D2D2D2;
   font-size: 3em;
   margin-right: 60px;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:link { color:#555555; }
@@ -36,9 +40,9 @@ ul {
 }
 
 div.menuwrapper {
-  border-bottom:1px solid #D2D2D2;
-  margin-right:60px;
-  margin-top:-10px;
+  border-bottom: 2px dashed #D2D2D2;
+  margin-right: 60px;
+  margin-top: -20px;
 }
 
 ul.menu {

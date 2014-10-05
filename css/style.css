@@ -1,13 +1,16 @@
 body {
   font-family:'Open Sans';
-  background-image: url(../img/background.jpg);
-  background-position: center top;
-  background-size: auto;
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
   border-bottom:1px solid #D2D2D2;
-  margin-right:60px;
+  font-size: 3em;
+  margin-right: 60px;
 }
 
 a:link { color:#555555; }
